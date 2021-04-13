@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.nearme_app">
+    package="com.mili.nearme_app">
    <application
         android:label="nearme_app"
         android:icon="@mipmap/ic_launcher">
