@@ -1,7 +1,3 @@
-<p align="center">
-  <img width="150"src="assets/icon/icon.png">
-</p>
-
 <h1 align="center"><strong>Near Me!</strong></h1>
 
 <div align="center">
@@ -31,34 +27,37 @@
 *  Dart
 *  Android Basics (optional)
 
+
 ## Build Setup
 
+### Clone the project
 ``` bash
-# clone the project
 git clone https://github.com/deepak-terse/nearme-app.git
 cd nearme-app
+```
 
-# install dependencies
+### Install dependencies
+``` bash
 flutter pub get
+```
 
-# run the application
+### Create a firebase account and setup google-services.json file
+- Copy this file from https://drive.google.com/file/d/1P6l7k65twgopdb9vRpBeDPksu5L1QWyn
+- Paste it at this location - `android/app/google-services.json`
+
+### Run the application
+``` bash
 flutter run
+```
 
-# hot reload
+### Hot reload
 Press r after flutter run
 
-# build a release version
+### Build a release version
+``` bash
 flutter clean
 flutter build apk --target-platform=android-arm64
 ```
-
-
-## Dependencies
-
-*  flutter_launcher_icons: ^0.7.5
-*  material_design_icons_flutter: ^4.0.5345
-*  provider: ^4.1.3
-*  share: ^0.6.4+3
 
 
 ## References
